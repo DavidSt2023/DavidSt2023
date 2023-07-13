@@ -7,12 +7,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-size:cover
 }
-
-.top{
-  position: absolute;
-  left:150px;
-  top: 29px;
-}
 .social{
   position: absolute;
   right:150px;
@@ -22,21 +16,55 @@ img.Logo2{
   height: 200px;
   position: absolute;
   top: 10px;
-  left: -110px;
+  left: 110px;
 }
-.dropdown{
+.dropbtn {
+  position: relative;
+  top:-10px;
+  right: 50px;
+  background-color:transparent;
+  font-weight: bold;
+  color: black;
+  padding: 16px;
   font-size: 30px;
-  position: absolute;
-  right:520px;
-  top: 85px;
-}
-.menu-link{
-  margin-left: 20px;
-  color:white;
-  text-decoration: none;
-}
-.menu-link:hover{
-  text-decoration:underline;
+  border: none;
+  cursor: pointer;
+  border-radius: 80px;
 }
 
-  
+.dropbtn:hover, .dropbtn:focus {
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-weight: bold;
+  top: 56px;
+  right: 10px;
+  background-color: transparent;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown a:hover {text-decoration: underline;
+  color: white;}
+
+.show {display: block;}
