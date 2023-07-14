@@ -1,27 +1,82 @@
 
 body{
-  background-image: url("images/pxfuel.jpg");
-  background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
-  margin:0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-size:cover
+    background: url(images/Background6.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
 }
-.social{
-  position: absolute;
-  right:150px;
-  top: 67px;
+.top{
+  position: relative;
+  width: auto;
+  height: 300px;
 }
-img.Logo2{
+.fotter{
+  position: relative;
+  top: 585px;
+  right: 8px;
+  width: auto;
+  height: 100px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.ds{
+  position: fixed;
+  right: 200px;
+  color: black;
+}
+.Kontakt{
+  position: relative;
+  padding-bottom: 20px;
+}
+.Kontakt2{
+  position: relative;
+  top: 30px;
+}
+img.Logo{
   height: 200px;
-  position: absolute;
-  top: 10px;
   left: 110px;
+  position:relative;
+  top: 10px;
+}
+img.instagram{
+  top: -72px;
+  left: 1061px;
+  margin-right: 20px;
+  position: relative;
+}
+.E-Mail{
+  top: -73px;
+  left: 1054px;
+  position: relative;
+}
+.Termin{
+  width: 200px;
+  bottom: 25px;
+  left: 1224px;
+  position: relative;
+  background-color:transparent;
+  font-weight: bold;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 80px;
+}
+.Termin:hover, .Termin:focus{
+  background-color: transparent;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropbtn {
+  left: 1137px;
+  top:-82px;
   position: relative;
-  top:-10px;
-  right: 50px;
+  margin-bottom: 5px;
   background-color:transparent;
   font-weight: bold;
   color: black;
@@ -36,18 +91,12 @@ img.Logo2{
   background-color: transparent;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 143px;
+  left: 1412px;
   font-weight: bold;
-  top: 56px;
-  right: 10px;
   background-color: transparent;
   min-width: 160px;
   overflow: auto;
