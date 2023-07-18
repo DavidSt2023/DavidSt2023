@@ -6,7 +6,6 @@ body{
     -o-background-size: cover;
     background-size: cover;
     font: italic 1.2em "Fira Sans", serif;
-    color: whitesmoke;
     flex-direction: column;
     padding: 0;
 }
@@ -18,15 +17,31 @@ body{
   margin-right:1vw;
 }
 .Logo{
-  zoom: 0.2;
-  left:calc(50% - 1079.910px);
-  position:absolute;
-  top: 10%;
+top:5vh;
+width: 15vw;
+height: 7vw;
+min-width: 100px;
+min-height: 50px;
+left:calc(50% - 7.5vw);
+position:absolute;
 }
 .column{
-  size: 20%;
+  width: 3vw;
+  height: 3vw;
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 15px;
+  min-height: 15px;
   flex:33.33%;
-  padding: 15px;
+  padding: 1vw;
+}
+.column img{
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 20px;
+  min-height: 20px;
+  width: 2vw;
+  height: 2vw;
 }
 
 .Social{
@@ -60,12 +75,12 @@ body{
   background-position: center ;
   width: 5vw;
   height: 5vw;
-  top: 45%;
-  position: absolute;
   border: none;
   cursor: pointer;
   background-color: transparent;
   border-radius: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -74,27 +89,27 @@ body{
 }
 .dropdown-content {
   display: none;
-  position: absolute;
-  top: 91%;
+  position: relative;
+  margin-top: auto;
   float: left;
-  font-weight: bold;
   width: 14vw;
+  min-width: 100px;
   height: auto;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
   z-index: 1;
-  border-radius: 50px;
+  border-radius: 3vw;
 }
-
 .dropdown-content a {
   margin-left: 5%;
   color: whitesmoke;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 1.5vw;
 }
 .dropdown-content a :hover, .dropdown-content a:focus{
-  text-decoration: underline black;
+  text-decoration: underline white;
 }
 .dropdown:hover {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
