@@ -1,4 +1,6 @@
-
+body{
+  word-spacing: .1rem;
+}
 .top{    
   align-items: center;
   display:flex;
@@ -15,7 +17,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 15%;
+  width: 20%;
   height: auto;
   min-height: auto ;
   min-width: 160px;
@@ -35,9 +37,7 @@
 .Termin:hover{
   background-color: transparent;
   box-shadow: 0 0 50px 15px rgba(88, 151, 46, 0.97);
-
 }
-
 .column{
   flex-direction: column;
   padding-top: 50px;
@@ -50,9 +50,30 @@
   height: auto;
 }
 .Social{
-  float: right;
   display: flex;
   flex-direction: column;
+}
+.pfeil{
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  float: right;
+  display:flex;
+  flex-direction: row;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.text p {
+  width: 10vw;
+  max-width: 40px;
+  min-width: 100%;
+  height: auto;
+  font-size: 2rem;
 }
 .drpcont{
   position: absolute;
@@ -112,6 +133,12 @@
 
 .show {display: block;}
 
+.calender{
+  display: flex;
+  justify-content: center;
+  
+}
+
 .Therapie{
   font: italic 1.2em "Fira Sans", serif;
   color:whitesmoke;
@@ -132,6 +159,19 @@
   top:25%;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 5%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vmin
+}
+.datenschutz-text{
+  font: italic 1.2em "Fira Sans", serif;
+  color:whitesmoke;
+  position: relative;
+  top:25%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 5%;
   width: auto;
   display: flex;
@@ -191,7 +231,6 @@ a:visited {
   color:white;
 }
 .Datenschutz{
-  margin-left:20vw;
   display:flex;
   width: auto;
   flex-direction: column;
