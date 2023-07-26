@@ -27,11 +27,9 @@ p{
   min-width: 250px;
 }
 .Termin{
-  width: initial;
-  height: initial;
   margin-left: 2vw;
   order:2;
-  font: italic 1.5em "Fira Sans", serif;
+  font: italic 1.5vw "Fira Sans", serif;
   background-color:transparent;
   font-weight: bold;
   color: whitesmoke;
