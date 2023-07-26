@@ -27,6 +27,8 @@ p{
   min-width: 250px;
 }
 .Termin{
+  width: initial;
+  height: initial;
   margin-left: 2vw;
   order:2;
   font: italic 1.5em "Fira Sans", serif;
@@ -230,7 +232,7 @@ p{
   color: white;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: auto;
 }
 a:link {
   text-decoration: none;
