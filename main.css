@@ -298,11 +298,13 @@ a:visited {
   color:black;
 }
 .Datenschutz{
+  font-size: large;
   display:flex;
   width: auto;
   flex-direction: column;
 }
 .Kontakt{
+  font-size: large;
   display:flex;
   width: 25%;
   flex-direction: column;
