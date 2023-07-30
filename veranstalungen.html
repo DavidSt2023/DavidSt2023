@@ -13,15 +13,7 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body
-    style="
-      background: url(images/Background.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    "
-  >
+  <body>
     <div class="top">
       <div class="Social">
         <a class="column" href="mailto:heike.heesel@web.de">
@@ -36,7 +28,8 @@
       </div>
       <p class="Termin">Termin vereinbaren</p>
     </div>
-    <img class="Logo" src="images/Logo.gif" />
+    <!--<img class="Logo" src="images/Logo.gif" />-->
+    <div class="topbanner"><img class="logo" src="images/Logo.gif" /></div>
     <div class="drpcont">
       <button onclick="myFunction()" class="dropbtn"></button>
       <div id="myDropdown" class="dropdown-content">
@@ -48,17 +41,14 @@
       </div>
     </div>
     <div class="calender">
-      <iframe
-        src="https://embed.styledcalendar.com/#2zWPFj0sPA3J9R8SmlqL"
-        title="Styled Calendar"
-        class="styled-calendar-container"
-        style="width: 100%; border: none"
-        data-cy="calendar-embed-iframe"
-      ></iframe>
+      <div
+        data-tockify-component="calendar"
+        data-tockify-calendar="hhttevents"
+      ></div>
       <script
-        async
-        type="module"
-        src="https://embed.styledcalendar.com/assets/parent-window.js"
+        data-cfasync="false"
+        data-tockify-script="embed"
+        src="https://public.tockify.com/browser/embed.js"
       ></script>
     </div>
     <div class="fotter">
