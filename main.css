@@ -157,6 +157,19 @@ p{
   flex-direction: column;
   font-size: 2.5vmin
 }
+.impressum-text{
+  font: italic  "Fira Sans", serif;
+  color:black;
+  position: relative;
+  top:25%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5vmin
+}
 .about-text{
   order:2;
   font: italic  "Fira Sans", serif;
