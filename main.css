@@ -50,7 +50,6 @@ p{
   padding: 1vw;
 }
 .column img{
-  width: 4vw;
   max-width: 40px;
   min-width: 40px;
   height: auto;
@@ -343,9 +342,11 @@ p{
   .welcome-text{
     width: auto;
     margin-left:10%;
+    margin-right: 10%;
   }
   .dropdown-content a{
     font-size: 1.5rem;
+    color:black;
   }
   .Termin{
     font-size: 1.5rem;
@@ -353,7 +354,7 @@ p{
 }
 @media screen and (max-width: 745px) {
   .fotter-heading img {
-    height: 10rem;
+
     width: auto;
     margin-bottom: 2rem;
   }
