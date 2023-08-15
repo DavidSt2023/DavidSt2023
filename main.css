@@ -50,8 +50,7 @@ p{
   padding: 1vw;
 }
 .column img{
-  max-width: 40px;
-  min-width: 30px;
+  width: 40px;
   height: auto;
 }
 .Social{
@@ -353,7 +352,6 @@ p{
 }
 @media screen and (max-width: 745px) {
   .fotter-heading img {
-
     width: auto;
     margin-bottom: 2rem;
   }
