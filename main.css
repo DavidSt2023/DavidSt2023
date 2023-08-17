@@ -171,11 +171,10 @@ p{
 }
 .about-text{
   order:2;
-
   color:black;
   position: relative;
   width: 50%;
-  font-size: 2.5vmin;
+  font-size: 1.5rem;
 }
 .imgcont{
   order: 1;
@@ -223,7 +222,7 @@ p{
   font-size: 1.5rem;
   margin-left:25%;
 }
-/*.nav{
+.nav{
   width: 15%;
   display: flex;
   flex-direction:column;
@@ -234,8 +233,7 @@ p{
   flex-direction:column;
 }
 .nav h1{
-
-  font: italic  "Fira Sans", serif;
+  margin-bottom: 2rem;
   font-size: 2vmin;
   font-weight: bold;
   text-align: center;
@@ -246,7 +244,6 @@ p{
   background-color: transparent;
   border: none;
   color: black;
-  font: italic  "Fira Sans", serif;
   font-weight: bold;
   padding: 5%;
   text-align: center;
@@ -254,12 +251,13 @@ p{
   display: inline-block;
   font-size: 2.5vmin;
   cursor: pointer;
-  background-color: rgba(15, 14, 255, 0.2)
+  background-color: rgba(15, 14, 255, 0.1)
 }
 .nav a:hover{
-  color:azure
+  color:red
 }
 .nav img{
+  margin-bottom: 2rem;
   align-self: center;
   width: 10vw;
   height: 10vw;
@@ -268,7 +266,7 @@ p{
 .nav-v{
   display:flex;
   flex-direction:column;
-}*/
+}
 
 .angebot{
   position: relative;
@@ -350,14 +348,14 @@ p{
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 745px) {
+
+
+@media screen and (max-width: 1275px){
   .fotter-heading img {
-    width: auto;
+    width: 250px;
+    height: auto;
     margin-bottom: 2rem;
   }
-}
-
-@media screen and (max-width: 745px){
   .fotter{
     height: 80vh;
     flex-direction: column;
