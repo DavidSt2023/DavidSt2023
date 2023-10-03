@@ -4,6 +4,9 @@ body{
   margin:0;
   Background-color:#F5F5DC;
 }
+.calender{
+  background-color: #F5F5DC;
+}
 p{
   cursor:default;
 }
