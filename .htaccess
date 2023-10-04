@@ -1,0 +1,24 @@
+# Enable the use of the .htaccess file
+RewriteEngine On
+
+# Redirect non-www to www (e.g., example.com to www.example.com)
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set the default index page to "index.html"
+DirectoryIndex index.html
+
+# Remove .html extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1.html [L]
+
+# AddCharset UTF-8 .php
+AddCharset UTF-8 .php
+
+# AddCharset UTF-8 .html
+AddCharset UTF-8 .html
